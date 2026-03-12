@@ -8,9 +8,9 @@ The objective of this project is to build a prediction model which allows us to 
 
 ### Project/Repository Structure
 **Project_Report** - Project deliverables (pdf and pptx)  
-**01_jupyter-labs-spacex-data-collection-api-v2.ipynb** - Data Collection from SpaceX API, includint part of Data Wrangling  
+**01_jupyter-labs-spacex-data-collection-api-v2.ipynb** - Data Collection from SpaceX API, including part of Data Wrangling  
 **02_jupyter-labs-webscraping.ipynb** - Data Collection from Wikipedia  
-**03_labs-jupyter-spacex-Data wrangling.ipynb** - Data Wrangling and partial EDA  
+**03_labs-jupyter-spacex-Data wrangling.ipynb** - Data Wrangling and a part of EDA  
 **04_edadataviz.ipynb** - EDA visualizations, included Features Engineering (One-Hot Encoding)  
 **05_jupyter-labs-eda-sql-coursera_sqllite.ipynb** - EDA with SQL  
 **06_lab_jupyter_launch_site_location.ipynb** - Geospatial visual analytics with Folium  
