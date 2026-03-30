@@ -17,11 +17,9 @@ The objective of this project is to build a prediction model which allows us to 
 * **07_spacex-dash-app_Submitted.py** - Interactive Launch Performance Dashboard with Plotly Dash  
 * **08_SpaceX-Machine-Learning-Prediction-Part-5-v1.ipynb** - Predictive Analysis - Machine Learning Classification models with Scikit-Learn  
 * **09_SpaceX-Machine-Learning-Prediction-Part-5-v1_Enhanced.ipynb** - Improvements added on top of the original file:  
-    1. Class distribution visualized and class weights applied.  
-    2. Corrected `StandardScaler` (fit on `X_train`, transform on `X_test`).  
-    3. CV changed to [5, 10] - optimized for small dataset ($n=90$).  
-    4. Added models:  
-        1. Random Forest  
-        2. XGBoost  
-    5. Added `classification_report` for XGBClassifier predictions.  
-    6. Added time measurement.
+    * Class distribution visualized and class weights applied.  
+    * Corrected `StandardScaler` (fit on `X_train`, transform on `X_test`).  
+    * CV changed to [5, 10] - optimized for small dataset ($n=90$).  
+    * Added models: Random Forest, XGBoost  
+    * Added `classification_report` for XGBClassifier predictions.  
+    * Added time measurement.
