@@ -7,16 +7,16 @@ Repository for Applied Data Science Capstone
 The objective of this project is to build a prediction model which allows us to answer the key question: Will the first stage land successfully or not?
 
 ### Project/Repository Structure
-**Project_Report** - Project deliverables (pdf and pptx)  
-**01_jupyter-labs-spacex-data-collection-api-v2.ipynb** - Data Collection from SpaceX API, including part of Data Wrangling  
-**02_jupyter-labs-webscraping.ipynb** - Data Collection from Wikipedia  
-**03_labs-jupyter-spacex-Data wrangling.ipynb** - Data Wrangling and a part of EDA  
-**04_edadataviz.ipynb** - EDA visualizations, included Features Engineering (One-Hot Encoding)  
-**05_jupyter-labs-eda-sql-coursera_sqllite.ipynb** - EDA with SQL  
-**06_lab_jupyter_launch_site_location.ipynb** - Geospatial visual analytics with Folium  
-**07_spacex-dash-app_Submitted.py** - Interactive Launch Performance Dashboard with Plotly Dash  
-**08_SpaceX-Machine-Learning-Prediction-Part-5-v1.ipynb** - Predictive Analysis - Machine Learning Classification models with Scikit-Learn  
-**09_SpaceX-Machine-Learning-Prediction-Part-5-v1_Enhanced.ipynb** - Improvements added on top of the original file:  
+* **Project_Report** - Project deliverables (pdf and pptx)  
+* **01_jupyter-labs-spacex-data-collection-api-v2.ipynb** - Data Collection from SpaceX API, including part of Data Wrangling  
+* **02_jupyter-labs-webscraping.ipynb** - Data Collection from Wikipedia  
+* **03_labs-jupyter-spacex-Data wrangling.ipynb** - Data Wrangling and a part of EDA  
+* **04_edadataviz.ipynb** - EDA visualizations, included Features Engineering (One-Hot Encoding)  
+* **05_jupyter-labs-eda-sql-coursera_sqllite.ipynb** - EDA with SQL  
+* **06_lab_jupyter_launch_site_location.ipynb** - Geospatial visual analytics with Folium  
+* **07_spacex-dash-app_Submitted.py** - Interactive Launch Performance Dashboard with Plotly Dash  
+* **08_SpaceX-Machine-Learning-Prediction-Part-5-v1.ipynb** - Predictive Analysis - Machine Learning Classification models with Scikit-Learn  
+* **09_SpaceX-Machine-Learning-Prediction-Part-5-v1_Enhanced.ipynb** - Improvements added on top of the original file:  
     1. Class distribution visualized and class weights applied.  
     2. Corrected `StandardScaler` (fit on `X_train`, transform on `X_test`).  
     3. CV changed to [5, 10] - optimized for small dataset ($n=90$).  
