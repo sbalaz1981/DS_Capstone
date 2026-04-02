@@ -4,7 +4,7 @@ Repository for SpaceX Falcon 9 Landing Prediction
 ## SpaceX Falcon 9 Landing Prediction
 
 ### Project Overview
-The objective of this project is to build a prediction model which allows us to answer the key question: Will the first stage land successfully or not?
+The objective of this project is to build a prediction model which allows us to answer the key question: Will the first stage of Falcon 9 land successfully or not?
 
 ### Project/Repository Structure
 * **Project_Report** - Project deliverables (pdf and pptx)  
