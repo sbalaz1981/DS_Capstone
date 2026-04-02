@@ -1,5 +1,5 @@
-# DS_Capstone
-Repository for Applied Data Science Capstone
+# SpaceX-Landing-Prediction-Technical-Enhancements
+Repository for SpaceX Falcon 9 Landing Prediction
 
 ## SpaceX Falcon 9 Landing Prediction
 
