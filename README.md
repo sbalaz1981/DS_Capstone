@@ -16,6 +16,8 @@ The objective of this project is to build a prediction model which allows us to 
 * **06_lab_jupyter_launch_site_location.ipynb** - Geospatial visual analytics with Folium  
 * **07_spacex-dash-app_Submitted.py** - Interactive Launch Performance Dashboard with Plotly Dash  
 * **08_SpaceX-Machine-Learning-Prediction-Part-5-v1.ipynb** - Predictive Analysis - Machine Learning Classification models with Scikit-Learn  
+---
+### **Project Technical Optimization & Advanced Analysis**
 * **09_SpaceX-Machine-Learning-Prediction-Part-5-v1_Enhanced.ipynb** - Improvements added on top of the original file:  
     * Class distribution visualized and class weights applied  
     * Corrected `StandardScaler` - prevent data leakage (fit_transform on `X_train`, transform on `X_test`)  
