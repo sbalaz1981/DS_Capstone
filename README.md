@@ -17,11 +17,11 @@ The objective of this project is to build a prediction model which allows us to 
 * **07_spacex-dash-app_Submitted.py** - Interactive Launch Performance Dashboard with Plotly Dash  
 * **08_SpaceX-Machine-Learning-Prediction-Part-5-v1.ipynb** - Predictive Analysis - Machine Learning Classification models with Scikit-Learn  
 ---
-#### **Project Technical Optimization & Advanced Analysis**
-* **09_SpaceX-Machine-Learning-Prediction-Part-5-v1_Enhanced.ipynb** - Technical enhancements beyond the baseline workflow::  
-    * Class distribution: Analyzed class imbalance and implemented Class Weights to improve minority class recall  
-    * Data leakeage: Corrected StandardScaler implementation to prevent data leakage (fit_transform on X_train, transform on X_test)  
-    * Cross-Validation: Optimized CV strategy (k=[5, 10]) specifically for small dataset ($n=90$).  
-    * Expanded Model Set: Integrated Ensemble Models (Random Forest and XGBoost)  
-    * Advanced Evaluation: Utilized Classification Report for the best performing model (XGBClassifier)  
-    * Included time measurement for Ensemble Models
+#### **Project Technical Optimization**
+* **09_SpaceX-Machine-Learning-Prediction-Part-5-v1_Enhanced.ipynb** - Technical enhancements beyond the baseline workflow:  
+    * Class distribution: Analyzed class imbalance and implemented **Class Weights** to improve minority class recall  
+    * Data leakage: Corrected **StandardScaler** implementation to prevent data leakage (fit_transform on X_train, transform on X_test)  
+    * Cross-Validation: Optimized **CV strategy** (k=[5, 10]) for small dataset ($n=90$).  
+    * Expanded Model Set: Integrated **Ensemble Models** (Random Forest and XGBoost)  
+    * Advanced Evaluation: Utilized **Classification Report** for the best performing model (XGBClassifier)  
+    * Execution Timing: Included runtime measurements for Ensemble Models (to assess computational cost)
