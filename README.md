@@ -11,15 +11,15 @@ The objective of this project is to build a prediction model which allows us to 
 * **01_jupyter-labs-spacex-data-collection-api-v2.ipynb** - Data Collection from SpaceX API, including part of Data Wrangling  
 * **02_jupyter-labs-webscraping.ipynb** - Data Collection from Wikipedia  
 * **03_labs-jupyter-spacex-Data wrangling.ipynb** - Data Wrangling and a part of EDA  
-* **04_edadataviz.ipynb** - EDA visualizations, included Features Engineering (One-Hot Encoding)  
+* **04_edadataviz.ipynb** - EDA visualizations, including Features Engineering (One-Hot Encoding)  
 * **05_jupyter-labs-eda-sql-coursera_sqllite.ipynb** - EDA with SQL  
 * **06_lab_jupyter_launch_site_location.ipynb** - Geospatial visual analytics with Folium  
 * **07_spacex-dash-app_Submitted.py** - Interactive Launch Performance Dashboard with Plotly Dash  
 * **08_SpaceX-Machine-Learning-Prediction-Part-5-v1.ipynb** - Predictive Analysis - Machine Learning Classification models with Scikit-Learn  
 * **09_SpaceX-Machine-Learning-Prediction-Part-5-v1_Enhanced.ipynb** - Improvements added on top of the original file:  
-    * Class distribution visualized and class weights applied.  
-    * Corrected `StandardScaler` (fit on `X_train`, transform on `X_test`).  
-    * CV changed to [5, 10] - optimized for small dataset ($n=90$).  
+    * Class distribution visualized and class weights applied  
+    * Corrected `StandardScaler` - prevent data leakage (fit_transform on `X_train`, transform on `X_test`)  
+    * CV changed to [5, 10] - optimized for small dataset ($n=90$)  
     * Added models: Random Forest, XGBoost  
-    * Added `classification_report` for XGBClassifier predictions.  
-    * Added time measurement.
+    * Added `classification_report` for XGBClassifier predictions  
+    * Added time measurement
