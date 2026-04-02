@@ -7,7 +7,7 @@ Repository for SpaceX Falcon 9 Landing Prediction
 The objective of this project is to build a prediction model which allows us to answer the key question: Will the first stage of Falcon 9 land successfully or not?
 
 ### External Link (nbviewer)
-* **[View Module 06: Launch Site Location Interactive Analysis (nbviewer)](https://nbviewer.org/github/sbalaz1981/SpaceX-Landing-Prediction-Technical-Enhancements/blob/main/06_lab_jupyter_launch_site_location.ipynb)**
+**[View Module 06: Launch Site Location Interactive Analysis (nbviewer)](https://nbviewer.org/github/sbalaz1981/SpaceX-Landing-Prediction-Technical-Enhancements/blob/main/06_lab_jupyter_launch_site_location.ipynb)**
 
 ### Project/Repository Structure
 * **Project_Report** - Project deliverables (pdf and pptx)  
